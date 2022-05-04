@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="css/loginstyle.css">
+    <script src="https://kit.fontawesome.com/b9651dd59f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="burger-menu">
+            <div class="burger-header">
+              <div class="burger-header-l">
+                <ul>
+                  <li><a href="join.html">JOIN</a></li>
+                  <li><a href="login.html">LOGIN</a></li>
+                  <li><a href="#">CART</a></li>
+                  <li><a href="#">MYPAGE</a></li>
+                </ul>
+              </div>
+              <div class="burger-header-r">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="burger-content">
+              <div class="burger-nav">
+                <ul>
+                  <li><a href="#">SHOP</a></li>
+                  <li><a href="#">NEWS LETTER</a></li>
+                  <li><a href="#">MAKING STORY</a></li>
+                  <li><a href="#">LOOKBOOK</a></li>
+                  <li><a href="#">OFFLINE SHOP</a></li>
+                  <li><a href="#">CUSTOMER CARE</a></li>
+                </ul>
+              </div>
+              <div class="burger-icon">
+                <ul>
+                  <li><a href="#"><img src="./img/sns001.png" alt="yt"></a></li>
+                  <li><a href="#"><img src="./img/sns002.png" alt="ins"></a></li>
+                  <li><a href="#"><img src="./img/sns003.png" alt="blog"></a></li>
+                  <li><a href="#"><img src="./img/sns004.png" alt="cafe"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- header -->
+          <header id="header">
+              <div class="header-inner">
+                  <div class="burger">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+                  <div class="t-logo">
+                      <h1><a href="index.html"><img src="./img/toplogo.png" alt="t-logo"></a></h1>
+                  </div>
+                  <div class="t-icon">
+                      <div class="search">
+                          <a><i class="fas fa-search fa-lg"></i></a>
+                      </div>
+                      <div class="cart">
+                          <a href="#"><img src="./img/btn_cart.png" alt="cart"></a>
+                      </div>
+                  </div>
+              </div>
+          </header>
+          <!-- header -->
+          <div class="loginbox">
+              <h1>Login</h1>
+              <span class="t-line"></span>
+              <fieldset>
+                  <legend>로그인 구역</legend>
+                  <label for="loginid">ID</label>
+                  <input type="text" id="loginid" placeholder="아이디를 입력해주세요">
+                  <label for="loginpw">PASSWORD</label>
+                  <input type="password" id="loginpw" placeholder="비밀번호를 입력해주세요">
+                  <button type="submit">Login</button>
+              </fieldset>
+          </div>
+          <div class="unloginbox">
+            <h1>비회원 주문조회</h1>
+            <span class="t-line"></span>
+            <fieldset>
+                <legend>로그인 구역</legend>
+                <label for="name">NAME</label>
+                <input type="text" id="name" placeholder="이름을 입력해주세요">
+                <label for="or-num">ORDER NUMBER</label>
+                <input type="text" id="or-num" placeholder="주문번호를 입력해주세요">
+                <label for="unloginpw">GUEST PASSWORD</label>
+                <input type="password" id="unloginpw" placeholder="비밀번호를 입력해주세요">
+                <button type="submit">조회</button>
+            </fieldset>
+          </div>
+            <!-- footer -->
+        <footer id="footer">
+            <div class="f-top">
+              <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">AGREEMENT</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+              </ul>
+            </div>
+            <div class="f-center-t">
+              <ul class="version">
+                <li><a href="#">PC</a></li>
+                <li><a href="#">MOBILE</a></li>
+              </ul>
+            </div>
+            <div class="f-center-b">
+              <p class="tel">010-4583-8738</p>
+              <p class="oh">평일 12:00~19:00 / 주말,공휴일 휴무</p>
+            </div>
+            <div class="f-bottom">
+              <p class="copy-w">Copyright © <strong>SATUR</strong>. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>join</title>
+    <link rel="stylesheet" href="css/joinstyle.css">
+    <script src="https://kit.fontawesome.com/b9651dd59f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/script2.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="burger-menu">
+            <div class="burger-header">
+              <div class="burger-header-l">
+                <ul>
+                  <li><a href="join.html">JOIN</a></li>
+                  <li><a href="login.html">LOGIN</a></li>
+                  <li><a href="#">CART</a></li>
+                  <li><a href="#">MYPAGE</a></li>
+                </ul>
+              </div>
+              <div class="burger-header-r">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="burger-content">
+              <div class="burger-nav">
+                <ul>
+                  <li><a href="#">SHOP</a></li>
+                  <li><a href="#">NEWS LETTER</a></li>
+                  <li><a href="#">MAKING STORY</a></li>
+                  <li><a href="#">LOOKBOOK</a></li>
+                  <li><a href="#">OFFLINE SHOP</a></li>
+                  <li><a href="#">CUSTOMER CARE</a></li>
+                </ul>
+              </div>
+              <div class="burger-icon">
+                <ul>
+                  <li><a href="#"><img src="./img/sns001.png" alt="yt"></a></li>
+                  <li><a href="#"><img src="./img/sns002.png" alt="ins"></a></li>
+                  <li><a href="#"><img src="./img/sns003.png" alt="blog"></a></li>
+                  <li><a href="#"><img src="./img/sns004.png" alt="cafe"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- header -->
+          <header id="header">
+              <div class="header-inner">
+                  <div class="burger">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+                  <div class="t-logo">
+                      <h1><a href="index.html"><img src="./img/toplogo.png" alt="t-logo"></a></h1>
+                  </div>
+                  <div class="t-icon">
+                      <div class="search">
+                          <a><i class="fas fa-search fa-lg"></i></a>
+                      </div>
+                      <div class="cart">
+                          <a href="#"><img src="./img/btn_cart.png" alt="cart"></a>
+                      </div>
+                  </div>
+              </div>
+          </header>
+          <!-- header -->
+          <section id="section">
+                <div class="container">
+                    <div class="title">
+                        <h1>Member Join</h1>
+                    </div>
+                    <span class="t-line"></span>
+                    <div class="name">
+                        <h2>NAME</h2>
+                        <input id="name" type="text" placeholder="이름을 입력해주세요">
+                    </div>
+                    <div class="id">
+                        <h2>ID</h2>
+                        <input id="id" type="text" placeholder="아이디를 입력해주세요">
+                    </div>
+                    <div class="pw">
+                        <h2>PASSWORD</h2>
+                        <input id="pw" type="password" placeholder="비밀번호를 입력해주세요">
+                    </div>
+                    <div class="cf-pw">
+                        <h2>CONFIRM PASSWORD</h2>
+                        <input id="cf-pw" type="password" placeholder="비밀번호를 다시 한번 입력해주세요">
+                    </div>
+                    <div class="email">
+                        <h2>E-MAIL</h2>
+                        <input id="email" type="email" placeholder="이메일을 입력해주세요">
+                    </div>
+                    <div class="phone">
+                        <h2>PHONE</h2>
+                        <select name="phone1" id="phone1" fw-filter="isNumber&isFill">
+                            <option value="010">010</option>
+                            <option value="011">011</option>
+                            <option value="016">016</option>
+                            <option value="017">017</option>
+                            <option value="018">018</option>
+                            <option value="019">019</option>
+                        </select>
+                        -
+                        <input id="phone2" type="number" >
+                        -
+                        <input id="phone3" type="number" >
+                        <span></span>
+                    </div>
+                    <div class="check1">
+                        <p>[필수] 이용약관</p>
+                        <div class="checkbox1">
+                           <input type="checkbox" name="agree" id="ch1" value="동의함"> <label for="agree">동의함</label>
+                        </div>   
+                    </div>
+                    <span class="che-1-line"></span>
+                    <div class="check2">
+                        <p>[필수] 개인정보 수집 및 이용</p>
+                        <div class="checkbox2">
+                            <input type="checkbox" name="agree" id="ch2" value="동의함"> <label for="agree">동의함</label>
+                        </div>
+                    </div>
+                    <span class="che-2-line"></span>
+                    <div class="check3">
+                        <p>[선택] 쇼핑정보 수신</p>
+                        <div class="checkbox3">
+                            <input type="checkbox" name="agree" id="ch3" value="동의함"> <label for="agree">동의함</label>
+                        </div>
+                    </div>
+                    <span class="che-3-line"></span>
+                    <div class="allCheck">
+                        <input type="checkbox" name="allagree" id="allch" value="동의함"> <label for="allagree">전체동의</label>
+                    </div>
+                </div>
+          </section>
+          <!-- footer -->
+        <footer id="footer">
+            <div class="f-top">
+              <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">AGREEMENT</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+              </ul>
+            </div>
+            <div class="f-center-t">
+              <ul class="version">
+                <li><a href="#">PC</a></li>
+                <li><a href="#">MOBILE</a></li>
+              </ul>
+            </div>
+            <div class="f-center-b">
+              <p class="tel">010-4583-8738</p>
+              <p class="oh">평일 12:00~19:00 / 주말,공휴일 휴무</p>
+            </div>
+            <div class="f-bottom">
+              <p class="copy-w">Copyright © <strong>SATUR</strong>. All rights reserved</p>
+            </div>
+        </footer>
+        <!-- footer -->
+    </div>
+    </div>
+</body>
+</html>
