@@ -26,8 +26,6 @@ footer{padding: 40px 20px;}
 .header-inner .t-icon .cart a img{}
 
 /* section */
-#section .img1{margin-bottom: 10px;}
-#section .img1 a img{width: 100%;}
 
 #section .img2{display: flex; width: 100%; margin-bottom: 10px;}
 #section .img2 a{ display: block; width: 50%}
