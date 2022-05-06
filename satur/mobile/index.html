@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b9651dd59f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/script.js" defer></script>
+
+     <!-- Demo styles -->
+     <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+  
+  
+        .swiper {
+            margin-bottom: 10px;
+          width: 100%;
+          height: 100%;
+        }
+  
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+  
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+        .swiper-slide a{
+            display: block;
+            width: 100%;
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .swiper-pagination-bullet{
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            border-radius: 100%;
+            background: #999;
+            cursor: pointer;
+        }
+      </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="burger-menu">
+          <div class="burger-header">
+            <div class="burger-header-l">
+              <ul>
+                <li><a href="join.html">JOIN</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="#">CART</a></li>
+                <li><a href="#">MYPAGE</a></li>
+              </ul>
+            </div>
+            <div class="burger-header-r">
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="burger-content">
+            <div class="burger-nav">
+              <ul>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">NEWS LETTER</a></li>
+                <li><a href="#">MAKING STORY</a></li>
+                <li><a href="#">LOOKBOOK</a></li>
+                <li><a href="#">OFFLINE SHOP</a></li>
+                <li><a href="#">CUSTOMER CARE</a></li>
+              </ul>
+            </div>
+            <div class="burger-icon">
+              <ul>
+                <li><a href="#"><img src="./img/sns001.png" alt="yt"></a></li>
+                <li><a href="#"><img src="./img/sns002.png" alt="ins"></a></li>
+                <li><a href="#"><img src="./img/sns003.png" alt="blog"></a></li>
+                <li><a href="#"><img src="./img/sns004.png" alt="cafe"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- header -->
+        <header id="header">
+            <div class="header-inner">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="t-logo">
+                    <h1><a href="index.html"><img src="./img/toplogo.png" alt="t-logo"></a></h1>
+                </div>
+                <div class="t-icon">
+                    <div class="search">
+                        <a><i class="fas fa-search fa-lg"></i></a>
+                    </div>
+                    <div class="cart">
+                        <a href="#"><img src="./img/btn_cart.png" alt="cart"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+        <!-- section -->
+        <section id="section">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="#"><img src="./img/42a5a66c61465147da6ea060c02b35d8.png" alt="Slide1"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./img/48bc5a15f640ab8254bfcaa173b4825d.png" alt="Slide2"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./img/4077b479e9c155e4af6193da698143d4.png" alt="Slide3"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="./img/d2dba038a306c36eefeb204c02c7b95d.png" alt="Slide4"></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            <div class="img2">
+                <a href="#" class="img2-l"><img src="./img/35405fd15e8b6aa3125ff81f6176dbca.png" alt="img2-l"></a>
+                <a href="#" class="img2-r"><img src="./img/fe07860198a1432ccb08770c61c5cddd.png" alt="img2-r"></a>
+            </div>
+            <div class="img3">
+                <a href="#" class="img3-l"><img src="./img/736a0549fe43b133459dfd4cc6fe184a.png" alt="img3-l"></a>
+                <a href="#" class="img3-c"><img src="./img/2e311b56cada0464f0b8ba457b8dddbb.png" alt="img3-c"></a>
+                <a href="#" class="img3-r"><img src="./img/b5bc697a7c25e23ed2c81e62397bd16e.png" alt="img3-r"></a>
+            </div>
+        </section>
+        <!-- section -->
+        <!-- footer -->
+        <footer id="footer">
+            <div class="f-top">
+              <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">AGREEMENT</a></li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+              </ul>
+            </div>
+            <div class="f-center-t">
+              <ul class="version">
+                <li><a href="#">PC</a></li>
+                <li><a href="#">MOBILE</a></li>
+              </ul>
+            </div>
+            <div class="f-center-b">
+              <p class="tel">010-4583-8738</p>
+              <p class="oh">평일 12:00~19:00 / 주말,공휴일 휴무</p>
+            </div>
+            <div class="f-bottom">
+              <p class="copy-w">Copyright © <strong>SATUR</strong>. All rights reserved</p>
+            </div>
+        </footer>
+        <!-- footer -->
+        <!-- aside -->
+        <aside id="aside">
+          <div class="chat">
+            <a href="#"><img src="./img/pc.png" alt="chat"></a>
+          </div>
+        </aside>
+        <!-- aside -->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>
