@@ -65,7 +65,7 @@ footer{padding: 40px 20px;}
 #burger-menu .burger-header{display: flex; justify-content: space-between; height: 80px; align-items: center; padding: 0 30px; border-bottom: 2px solid #F8E3AE;}
 #burger-menu .burger-header .burger-header-l{width: 60%;}
 #burger-menu .burger-header .burger-header-l ul{display: flex; justify-content: space-between;}
-#burger-menu .burger-header .burger-header-l ul li{}
+#burger-menu .burger-header .burger-header-l ul li:not(:nth-child(1)){margin-left: 5px;}
 #burger-menu .burger-header .burger-header-l ul li a{}
 #burger-menu .burger-header .burger-header-r{width: 30px; height: 30px; position: relative; cursor: pointer;}
 #burger-menu .burger-header .burger-header-r span{display: inline-block; width: 1px; height: 30px; background: #000; position: absolute; left: 50%; transform: translateX(-50%);}

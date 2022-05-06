@@ -106,8 +106,9 @@
     .p-c .motto{margin-top: 20px;}
     .p-r{width: 100%; height: auto;  text-align: center; margin-top: 30px; display: flex; justify-content: space-around;}
     .p-r .tel{margin-top: 0; font-size: 0.9em;}
-    .p-r .tel span{margin-left: 10px;}
-    .p-r .e-mail{font-size: 0.9em;}
+    .p-r .tel span{margin-left: 5px;}
+    .p-r .e-mail{font-size: 0.9em; margin-left: 10px;}
+    .p-r .e-mail span{margin-left: 5px;}
     .p-r .hobby{display: none;}
     .p-c .skill{width: 100%; text-align: left; margin-top: 30px;}
     .p-c .skill .skill-title{text-align: center; font-size: 16px;}
