@@ -157,7 +157,19 @@ $(window).scroll(function(){
         $('#pj03 .cover .bx-left .info_bx').removeClass('on')
     }
 })
-
+$(window).scroll(function(){
+    let pj4Top = $(window).scrollTop();
+    let pj4ct = $('#pj04').offset().top;
+    if(pj4Top == pj4ct){
+        $('#pj04 .cover .bx-left').addClass('on')
+        $('#pj04 .cover .bx-right').addClass('on')
+        $('#pj04 .cover .bx-right .info_bx').addClass('on')
+    }else{
+        $('#pj04 .cover .bx-left').removeClass('on')
+        $('#pj04 .cover .bx-right').removeClass('on')
+        $('#pj04 .cover .bx-right .info_bx').removeClass('on')
+    }
+})
 
 
 
